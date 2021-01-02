@@ -4,6 +4,7 @@
 ## Modules
 |Name|Technical Name|Summary|License |
 | ----- | ----- | ----- | ----- |
+|Captcha - Contact Form|`website_crm_captcha`|Captcha for Contact Form|GNU Affero General Public License v3.0 (AGPL-3.0)|
 
 
 
@@ -11,6 +12,7 @@
 |Required By| Components | License |
 | ----- | ----- | ----- |
 |All Modules|Odoo v8.0|[GNU Affero General Public License v3.0 (AGPL-3.0)](https://raw.githubusercontent.com/odoo/odoo/8.0/LICENSE)|
+|`website_crm_captcha`|[captcha](https://github.com/lepture/captcha)|[BSD 3-Clause](https://raw.githubusercontent.com/lepture/captcha/master/LICENSE)|
 
 
 
