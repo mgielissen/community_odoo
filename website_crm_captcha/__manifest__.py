@@ -1,7 +1,7 @@
 {
     'name': 'Captcha - Contact Form',
     'category': 'Website',
-    'website': 'https://github.com/tvibliani/website_crm_captcha',
+    'website': 'https://github.com/pluginmere/community_odoo',
     'license': 'AGPL-3',
     'summary': 'Captcha for Contact Form',
     'version': '14.0.1.0.0',
@@ -10,7 +10,7 @@ Odoo Contact Form Captcha
 =========================
 
         """,
-    'author': 'Temur',
+    'author': 'PluginMere',
     'depends': ['website_crm'],
     'external_dependencies': {'python': ['captcha']},
     'data': [
