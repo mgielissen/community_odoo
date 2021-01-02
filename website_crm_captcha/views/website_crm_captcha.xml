@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+<template id="contactus_form_captcha" name="Contact Form - Captcha" inherit_id="website_crm.contactus_form" customize_show="True">
+    <xpath expr="//form/div[@class='form-group']" position="before">
+            <div t-attf-class="form-group #{error and 'captcha' in error and 'has-error' or ''}">
+                <label class="col-md-3 col-sm-4 control-label" for="captcha">Captcha</label>
+                <div class="col-md-7 col-sm-8">
+                    <img alt="Captcha Image"  t-att-src="'data:image/png;base64,'+captcha_src_data" />
+		    <input type="text" class="form-control" name="captcha" required="True" placeholder="Please enter here the number from the above captcha image"/>
+                </div>
+            </div>
+    </xpath>
+</template>
+
+
+</data>
+</openerp>
