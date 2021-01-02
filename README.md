@@ -10,7 +10,7 @@
 ## Dependencies Licenses
 |Required By| Components | License |
 | ----- | ----- | ----- |
-|All Modules|Odoo (v14.0+)|[GNU Lesser General Public License v3.0 (LGPL-3.0)](https://raw.githubusercontent.com/odoo/odoo/14.0/LICENSE)|
+|All Modules|Odoo v14.0|[GNU Lesser General Public License v3.0 (LGPL-3.0)](https://raw.githubusercontent.com/odoo/odoo/14.0/LICENSE)|
 
 
 
