@@ -1,0 +1,8 @@
+*~
+*.sw[po]
+*.py[cod]
+__pycache__/
+*.orig
+*.bak
+*.diff
+
