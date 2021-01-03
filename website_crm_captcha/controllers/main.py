@@ -52,6 +52,6 @@ class WebsiteForm(WebsiteForm):
         if (not captcha_reseived or not captcha_sent or not captcha_reseived == captcha_sent):
             values = {}
             self.gen_captcha(values)
-            _logger.info("Captcha error by user: Captcha received (%s) != Captcha Sent (%s)\n"%(captcha_reseived,captcha_sent))
+            _logger.info("Captcha error from %s: Captcha received (%s) != Captcha Sent (%s)\n"%(request.httprequest.environ["REMOTE_ADDR"],captcha_reseived,captcha_sent))
             return json.dumps({'error_fields' : ['captcha', {'captcha_src_data': values['captcha_src_data']}]}) #FIXME this is a hack actually
         return super(WebsiteForm, self).website_form(model_name, **kwargs)
