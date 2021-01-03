@@ -1,16 +1,40 @@
 {
     'name': 'Captcha - Contact Form',
+    'summary': 'Simple Captcha for Contact Us Form',
     'category': 'Website',
-    'website': 'https://github.com/pluginmere/community_odoo',
-    'license': 'AGPL-3',
-    'summary': 'Captcha for Contact Form',
+    'license': 'LGPL-3',
     'version': '14.0.1.0.0',
     'description': """
-Odoo Contact Form Captcha
-=========================
+Simple Captcha for "Contact Us" Form
+====================================
 
-        """,
+
+This module adds simple captcha to the website **Contact Us** form
+in order to protect you from most of the automated bot spam.
+
+
+Note
+----
+
+This module requires the `Captcha`_  Python module.
+
+Install the dependency
+~~~~~~~~~~~~~~~~~~~~~~
+either with
+^^^^^^^^^^^
+
+``pip install captcha``
+
+or with
+^^^^^^^
+
+``pip3 install captcha``
+
+
+.. _Captcha: https://github.com/lepture/captcha
+""",
     'author': 'PluginMere',
+    'website': 'https://github.com/pluginmere/community_odoo',
     'depends': ['website_crm'],
     'external_dependencies': {'python': ['captcha']},
     'data': [
