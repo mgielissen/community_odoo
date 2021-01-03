@@ -53,5 +53,5 @@ class WebsiteForm(WebsiteForm):
             values = {}
             self.gen_captcha(values)
             _logger.info("Captcha error from %s: Captcha received (%s) != Captcha Sent (%s)\n"%(request.httprequest.environ["REMOTE_ADDR"],captcha_reseived,captcha_sent))
-            return json.dumps({'error_fields' : ['captcha', {'captcha_src_data': values['captcha_src_data']}]}) #FIXME this is a hack actually
+            return json.dumps({'error_fields' : ['captcha', {'captcha_src_data': values['captcha_src_data']}]}) #FIXME this is a hack actually, probably separate Captcha Widget should be implemented instead
         return super(WebsiteForm, self).website_form(model_name, **kwargs)
