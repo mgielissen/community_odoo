@@ -15,6 +15,7 @@ Odoo Contact Form Captcha
     'external_dependencies': {'python': ['captcha']},
     'data': [
         'views/website_crm_captcha.xml',
+        'views/snippets/s_website_form.xml',
     ],
     'installable': True,
     'auto_install': False,
