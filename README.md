@@ -16,6 +16,12 @@
 
 
 
+Different components/modules in this repository may have different licenses on their own,
+as it is listed in the above tables or as it might be indicated in their respective sub-directories.
+If license is not explicitly indicated for any component/module, then the
+"Odoo Proprietary License v1.0" (AKA "OPL-1") license shall be assumed, which is given below.
+
+
 ## License (OPL-1)
 
 Odoo Proprietary License v1.0
