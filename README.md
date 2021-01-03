@@ -4,6 +4,7 @@
 ## Modules
 |Name|Technical Name|Summary|License |
 | ----- | ----- | ----- | ----- |
+|Captcha - Contact Form|`website_crm_captcha`|Simple Captcha for "Contact Us" Form|GNU Lesser General Public License v3.0 (LGPL-3.0)|
 
 
 
@@ -11,6 +12,7 @@
 |Required By| Components | License |
 | ----- | ----- | ----- |
 |All Modules|Odoo v14.0|[GNU Lesser General Public License v3.0 (LGPL-3.0)](https://raw.githubusercontent.com/odoo/odoo/14.0/LICENSE)|
+|`website_crm_captcha`|[captcha](https://github.com/lepture/captcha)|[BSD 3-Clause](https://raw.githubusercontent.com/lepture/captcha/master/LICENSE)|
 
 
 
