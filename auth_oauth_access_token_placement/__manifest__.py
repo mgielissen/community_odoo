@@ -37,5 +37,5 @@ This is a temporary solution before the upstream issue odoo/odoo#63963 will be a
         'views/views.xml',
     ],
     'installable': True,
-    'auto_install': True,
+    'auto_install': False,
 }
