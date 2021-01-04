@@ -27,7 +27,7 @@ This is a temporary solution before the upstream issue odoo/odoo#63963 will be a
     # for the full list
     'category': 'Hidden/Tools',
     'license': 'LGPL-3',
-    'version': '14.0.1.0.0',
+    'version': '14.0.1.0.1',
 
     # any module necessary for this one to work correctly
     'depends': ['auth_oauth'],
