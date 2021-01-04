@@ -5,6 +5,7 @@
 |Name|Technical Name|Summary|License |
 | ----- | ----- | ----- | ----- |
 |Captcha - Contact Form|`website_crm_captcha`|Simple Captcha for "Contact Us" Form|GNU Lesser General Public License v3.0 (LGPL-3.0)|
+|Access Token Placement - OAuth2 Authentication|`auth_oauth_access_token_placement`|Adds "Access Token Placement" selection filed to the Oauth2 provider object|GNU Lesser General Public License v3.0 (LGPL-3.0)|
 
 
 
